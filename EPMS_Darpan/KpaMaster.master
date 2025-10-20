@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="KpaMaster.Master.cs" Inherits="KpaMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+        <asp:ContentPlaceHolder ID="titleContent" runat="server" />
+    </title>
+
+    <!-- Bootstrap CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Top Navbar -->
+
+
+        <div class="navbar-custom d-flex justify-content-between align-items-center">
+            <h5 class="m-0">KPA Co-Creation Portal</h5>
+            <%--            <span class="fw-bold"><%= Session["Username"] %></span>--%>
+
+            <div class="dropdown">
+                <span class="fw-bold text-white"><%= Session["Username"] %></span>
+                <button class="btn dropdown-toggle text-white fw-bold" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                </button>
+
+                <ul class="dropdown-menu dropdown-menu-end p-0" aria-labelledby="dropdownMenu2">
+                    <li>
+                        <asp:LinkButton ID="lnkLogout" runat="server" PostBackUrl="~/Logout.aspx" CssClass="btn btn-outline-danger w-100 text-center">Logout</asp:LinkButton></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Main Content -->
+        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+
+    </form>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    
+</body>
+</html>

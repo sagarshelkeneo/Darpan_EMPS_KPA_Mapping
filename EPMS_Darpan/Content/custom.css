@@ -1,0 +1,242 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-custom {
+    background: linear-gradient(to right, #0a3d91, #004aad);
+    color: white;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+    .navbar-custom h5 {
+        margin: 0;
+        font-weight: bold;
+    }
+
+.status-badge {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.status-notstarted {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.status-submitted {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.status-manual {
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+.instructionInfo {
+    width: 100%;
+    display: inline-block;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    border: 2px dashed #ccc;
+    background: #fff;
+    margin: 0px 0px 24px;
+}
+
+    .instructionInfo ul {
+        margin-bottom: 0px;
+        padding-left: 19px;
+    }
+
+.section-title {
+    /* padding-bottom: .3rem; */
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #004aad;
+}
+
+.section-title-new {
+    /* padding-bottom: .3rem; */
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size:1.1rem;
+    color: #004aad;
+}
+.instructions-list li {
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+
+.guardrails-list li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.instructionInfo p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.tableKPAInfo {
+    width: 100%;
+    display: inline-block;
+}
+
+    .tableKPAInfo table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .tableKPAInfo table tr th, .tableKPAInfo table tr td {
+            font-size: 14px;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+        }
+
+        .tableKPAInfo table tr:nth-child(odd) {
+            background: #fff;
+        }
+
+        .tableKPAInfo table tr td h6 {
+            font-size: 14px;
+        }
+
+        .tableKPAInfo table tr td p {
+            font-size: 12px;
+        }
+
+        .tableKPAInfo table tr td input[type="checkbox"] {
+            min-width: 20px;
+            min-height: 20px;
+        }
+
+.guardrails-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background: #fff;
+    width: 350px;
+}
+
+.guardrail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+}
+
+.status-success {
+    background: #28a745;
+}
+
+.status-fail {
+    background: #dc3545;
+}
+
+.guardrail-item.greenData {
+    background: #c9e7cb;
+}
+
+    .guardrail-item.greenData span {
+        color: #32b777;
+    }
+
+.guardrail-item.redData {
+    background: #ebc5d0
+}
+
+    .guardrail-item.redData span {
+        color: #dc0200;
+    }
+
+.guardrail-item span small.text-muted {
+    font-weight: 600;
+}
+
+.card {
+    max-width: 500px;
+    margin: auto;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-continue {
+    float: right;
+}
+
+.checkbox-group label {
+    margin-right: 15px;
+}
+
+.bgdataInfo {
+    background: linear-gradient(to right, #0a3d91, #004aad);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 5% auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    .login-header h4 {
+        font-weight: bold;
+        color: #004080;
+    }
+
+.footer-note {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+.logo {
+    display: block;
+    margin: 10px auto;
+    width: 60px;
+}
+
+.required-star {
+    color: red;
+}
+
+
+.guardrails-container {
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
+}
+
+
+.guardrail-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.redData {
+    background-color: #f8f9fa;
+}

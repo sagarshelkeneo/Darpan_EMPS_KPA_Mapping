@@ -1,0 +1,73 @@
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.error-container {
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 500px;
+    word-wrap: break-word; /* ensures text wraps inside the box */
+}
+
+h1 {
+    color: #e74c3c;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.details {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 20px;
+    display: none;
+    white-space: pre-wrap; /* preserves line breaks */
+    max-height: 300px;
+    overflow-y: auto; /* scroll if too long */
+}
+
+.btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+    .btn:hover {
+        background-color: #2980b9;
+    }
+
+.toggle {
+    background: none;
+    border: none;
+    color: #3498db;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+    .toggle.active {
+        color: #e74c3c; /* color changes when active */
+    }
