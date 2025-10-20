@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "EPMS_Darpan", "EPMS_Darpan\", "{A61A3D86-73FA-4DCF-B351-FE9F7EA9D073}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{bb783b59-27a4-4087-95a9-edc5023710df}|DBService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52438"
+		Debug.AspNetCompiler.PhysicalPath = "EPMS_Darpan\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52438\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52438"
+		Release.AspNetCompiler.PhysicalPath = "EPMS_Darpan\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52438\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52438"
+		SlnRelativePath = "EPMS_Darpan\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBService", "DBService\DBService.csproj", "{BB783B59-27A4-4087-95A9-EDC5023710DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A61A3D86-73FA-4DCF-B351-FE9F7EA9D073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61A3D86-73FA-4DCF-B351-FE9F7EA9D073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61A3D86-73FA-4DCF-B351-FE9F7EA9D073}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61A3D86-73FA-4DCF-B351-FE9F7EA9D073}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{BB783B59-27A4-4087-95A9-EDC5023710DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB783B59-27A4-4087-95A9-EDC5023710DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB783B59-27A4-4087-95A9-EDC5023710DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB783B59-27A4-4087-95A9-EDC5023710DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6EBC0BF-728E-42CF-A59F-CD395031182E}
+	EndGlobalSection
+EndGlobal
