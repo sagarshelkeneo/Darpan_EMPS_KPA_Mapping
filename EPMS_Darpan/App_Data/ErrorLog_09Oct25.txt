@@ -1,0 +1,36 @@
+
+==================== ERROR LOG ====================
+Time: 09-Oct-2025 18:46:06
+Message: ORA-02291: integrity constraint (EPMS.FK_MAP_ROLE) violated - parent key not found
+ORA-06512: at "EPMS.USP_INSERT_KPA_ROLE_MAPPING_NEHA", line 11
+ORA-06512: at line 1
+https://docs.oracle.com/error-help/db/ora-02291/
+Source: Oracle Data Provider for .NET, Managed Driver
+Stack Trace:    at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DBService.AddKPAService.InsertKpaData(List`1 kpas, Int32 roleId, Int32 empID) in C:\BCG\Zeeshan\EPMS_Darpan 1\EPMS_Darpan_08Oct25_2016\EPMS_Darpan\DBService\AddKPAService.cs:line 161
+===================================================
+
+==================== ERROR LOG ====================
+Time: 09-Oct-2025 18:47:24
+Message: ORA-02291: integrity constraint (EPMS.FK_MAP_ROLE) violated - parent key not found
+ORA-06512: at "EPMS.USP_INSERT_KPA_ROLE_MAPPING_NEHA", line 11
+ORA-06512: at line 1
+https://docs.oracle.com/error-help/db/ora-02291/
+Source: Oracle Data Provider for .NET, Managed Driver
+Stack Trace:    at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DBService.AddKPAService.InsertKpaData(List`1 kpas, Int32 roleId, Int32 empID) in C:\BCG\Zeeshan\EPMS_Darpan 1\EPMS_Darpan_08Oct25_2016\EPMS_Darpan\DBService\AddKPAService.cs:line 161
+===================================================
+
+==================== ERROR LOG ====================
+Time: 09-Oct-2025 18:50:23
+Message: ORA-02291: integrity constraint (EPMS.FK_MAP_ROLE) violated - parent key not found
+ORA-06512: at "EPMS.USP_INSERT_KPA_ROLE_MAPPING_NEHA", line 11
+ORA-06512: at line 1
+https://docs.oracle.com/error-help/db/ora-02291/
+Source: Oracle Data Provider for .NET, Managed Driver
+Stack Trace:    at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at DBService.AddKPAService.InsertKpaData(List`1 kpas, Int32 roleId, Int32 empID) in C:\BCG\Zeeshan\EPMS_Darpan 1\EPMS_Darpan_08Oct25_2016\EPMS_Darpan\DBService\AddKPAService.cs:line 161
+===================================================

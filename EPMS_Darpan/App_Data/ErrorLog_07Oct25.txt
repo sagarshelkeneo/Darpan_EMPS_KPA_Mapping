@@ -1,0 +1,38 @@
+
+==================== ERROR LOG ====================
+Time: 07-Oct-2025 17:33:36
+Message: ORA-01017: invalid username/password; logon denied
+https://docs.oracle.com/error-help/db/ora-01017/
+Source: Oracle Data Provider for .NET, Managed Driver
+Stack Trace:    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString opaquePassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at OracleInternal.ServiceObjects.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at OracleInternal.ServiceObjects.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at DBService.Model.LoginService.ValidateUser(String username, String password) in C:\BCG\Zeeshan\EPMS_Darpan 1\EPMS_Darpan\DBService\LoginService.cs:line 50
+===================================================
+
+==================== ERROR LOG ====================
+Time: 07-Oct-2025 17:36:04
+Message: ORA-01017: invalid username/password; logon denied
+https://docs.oracle.com/error-help/db/ora-01017/
+Source: Oracle Data Provider for .NET, Managed Driver
+Stack Trace:    at OracleInternal.ServiceObjects.OracleFailoverMgrImpl.OnError(OracleConnection connection, CallHistoryRecord chr, Object mi, Exception ex, Boolean bTopLevelCall, Boolean& bCanRecordNewCall)
+   at Oracle.ManagedDataAccess.Client.OracleDataAdapter.Fill(DataTable dataTable)
+   at DBService.IndexService.GetRoles(Int32 empId) in C:\BCG\Zeeshan\EPMS_Darpan 1\EPMS_Darpan\DBService\IndexService.cs:line 66
+===================================================
+
+==================== ERROR LOG ====================
+Time: 07-Oct-2025 17:36:13
+Message: ORA-01017: invalid username/password; logon denied
+https://docs.oracle.com/error-help/db/ora-01017/
+Source: Oracle Data Provider for .NET, Managed Driver
+Stack Trace:    at OracleInternal.ConnectionPool.PoolManager`3.Get(ConnectionString csWithDiffOrNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OraclePoolManager.Get(ConnectionString csWithNewPassw, Boolean bGetForApp, OracleConnection connRefForCriteria, String affinityInstanceName, Boolean bForceMatch, Boolean bAsync)
+   at OracleInternal.ConnectionPool.OracleConnectionDispenser`3.Get(ConnectionString cs, PM conPM, ConnectionString pmCS, OracleOpaqueString opaquePassw, OracleOpaqueString securedProxyPassw, OracleConnection connRefForCriteria, Boolean bAsync)
+   at OracleInternal.ServiceObjects.OracleConnectionInternal.OpenInternal(Boolean bAsync)
+   at OracleInternal.ServiceObjects.OracleConnectionInternal.Open()
+   at Oracle.ManagedDataAccess.Client.OracleConnection.Open()
+   at DBService.Model.LoginService.ValidateUser(String username, String password) in C:\BCG\Zeeshan\EPMS_Darpan 1\EPMS_Darpan\DBService\LoginService.cs:line 50
+===================================================
